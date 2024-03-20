@@ -7,8 +7,8 @@ import json
 from dotenv import load_dotenv
 import random
 
-load_dotenv('.env')
-token = os.environ.get("DISCORD_TOKEN")
+load_dotenv('../.env')
+token = os.environ.get("HELPER_DISCORD_TOKEN")
 if not token:
     print("Token is unreachable")
     exit()
