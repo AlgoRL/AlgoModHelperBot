@@ -1,4 +1,5 @@
 import discord
+import json
 
 # -------------------------------------------------------------------------------------------
 # Step 1 Information Initialization
@@ -194,3 +195,39 @@ mods_list_embed4.add_field(name="**Basic Mods** ➤ *Patreon Exclusive*", value=
 ''')
 mods_list_embed5 = discord.Embed(color=discord.Color.dark_embed())
 mods_list_embed5.add_field(name="", value="More mods coming soon!")
+
+# --------------------------------------------------------------------------------------
+'''
+BEFORE USING PLSSSS MAKE SURE YOU'RE NOT ON PROD!!!! (BELOW)
+'''
+PROD = False
+
+if PROD:
+    print("Warning, you're on prod!!!")
+    with open("prod-channels.json", "r") as f:
+        channels = json.load(f)
+else:
+    with open("test-channels.json", "r") as f:
+        channels = json.load(f)
+
+# if you fuck this up ur actually an idiot
+
+# Embed:Channel
+embeds_list = [
+    (step1_embed, channels['how-to-algomod']),
+    (step2_embed, channels['how-to-algomod']),
+    (step3_embed, channels['how-to-algomod']),
+    (step4_embed, channels['how-to-algomod']),
+    (help_embed, channels['how-to-algomod']),
+    (link_discord_embed, channels['link-discord']),
+    (choose_tier_embed, channels['choosing-a-tier']),
+    (incompatible_plugins_embed1, channels['incompatible-plugins']),
+    (incompatible_plugins_embed2, channels['incompatible-plugins']),
+    (incompatible_plugins_embed3, channels['incompatible-plugins']),
+    (incompatible_plugins_extra, channels['incompatible-plugins']),
+    (mods_list_embed1, channels['mods-list']),
+    (mods_list_embed2, channels['mods-list']),
+    (mods_list_embed3, channels['mods-list']),
+    (mods_list_embed4, channels['mods-list']),
+    (mods_list_embed5, channels['mods-list'])
+]

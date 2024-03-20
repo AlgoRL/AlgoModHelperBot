@@ -1,0 +1,9 @@
+{
+    "1": "This is a relatively common problem and should be an easy fix. Make sure you connected your discord to your Patreon, and make sure that the discord you connected was the on you're using. For more details, visit <#1066870090475253790>.",
+    "2": "If you're having problems finding AlgoMod in your plugins manager, make sure Windows Virus & threat protection didn't delete the AlgoMod file. For more details, visit <#1066496574257106946>.",
+    "3": "I see you're having problems with Underpass loading instead of your mod. Make certain your `\"zCustomCarInjector.cmd\"` file is inside of the `\"rocketleague\\AlgoModv(version)\\CustomCars\"` folder. For more details, visit <#1066876652153475092>.",
+    "4": "This problem almost always means you have an incompatible plugin enabled. Check <#1066649585486929931>, and make sure you disable all of these in your plugin manager. If this doesn't work, respond with \"PLUGIN HELP\"",
+    "5": "This problem means you have a mod that you're not verified for. If you unsubscribed from Algo's Patreon, you will get unverified",
+    "PLUGIN HELP": "If you disabled all incompatible plugins and you are still having issues, try turning off all plugins BUT AlgoMod, Plugin Manager, and RCON Plugin. If this works, please tell <@262167257277399040> or <@1141450692171665508> in <#1049785049358278676>.",
+    "MORE HELP": "If none of these questions apply to you, ping either <@262167257277399040> or <@1141450692171665508> in <#1049770101651537961> and describe your problem in detail. Reply with \"HELP\" to see the list of questions again!"
+}
